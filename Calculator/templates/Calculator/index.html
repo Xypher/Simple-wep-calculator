@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'Calculator/style.css'%}">
+
+</head>
+
+<body>
+
+
+
+    <div id="interface">
+
+        <input type="text" id="screen">
+
+        <div id="numbers">
+
+            <button type="button" id="seven" value="7">7</button>
+            <button type="button" id="eight" value="8">8</button>
+            <button type="button" id="nine" value="9">9</button>
+            <button type="button" id="four" value="4">4</button>
+            <button type="button" id="five" value="5">5</button>
+            <button type="button" id="six" value="6">6</button>
+            <button type="button" id="one" value="1">1</button>
+            <button type="button" id="two" value="2">2</button>
+            <button type="button" id="three" value="3">3</button>
+
+        </div>
+
+        <div id="commons">
+
+            <button type="button" id="backslash" value="<="><=</button>
+            <button type="button" id="left_bracket" value="(">(</button>
+            <button type="button" id="right_bracket" value=")">)</button>
+            <button type="button" id="plus" value="+">+</button>
+            <button type="button" id="minus" value="-">-</button>
+            <button type="button" id="pi" value="pi">pi</button>
+            <button type="button" id="mult" value="*">*</button>
+            <button type="button" id="divide" value="/">/</button>
+            <button type="button" id="eular" value="e">e</button>
+            <button type="button" id="pow" value="^">^</button>
+            <button type="button" id="modulo" value="%">%</button>
+            <button type="button" id="_sqrt" value="sqrt">sqrt</button>
+            <div>
+                <button type="button" id="clear" value="clear">clear</button>
+                <button type="button" id="equal" value="=">=</button>
+            </div>
+        </div>
+
+        <div id="utils">
+
+            <button type="button" id="zero" value="0">0</button>
+            <button type="button" id="dot" value=".">.</button>
+            <button type="button" id="_log" value="log">log</button>
+            <button type="button" id="_ln" value="ln">ln</button>
+
+        </div>
+
+        <div id="trigs">
+
+            <button type="button" id="_cos" value="cos">cos</button>
+            <button type="button" id="_sin" value="sin">sin</button>
+            <button type="button" id="_tan" value="tan">tan</button>
+            <button type="button" id="_acos" value="acos">acos</button>
+            <button type="button" id="_asin" value="asin">asin</button>
+            <button type="button" id="_atan" value="atan">atan</button>
+
+
+        </div>
+
+
+
+    </div>
+
+    {%load static %}
+    <script src="{% static 'Calculator/calc.js' %}"></script>
+
+</body>
+
+</html> 

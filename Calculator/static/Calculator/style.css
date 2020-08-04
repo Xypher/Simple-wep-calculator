@@ -1,0 +1,137 @@
+body {
+    background: url("/static/Calculator/img/background.jpg") 50% 0 no-repeat fixed;
+}
+
+* {
+    outline: none;
+}
+
+#interface {
+    display: inline-block;
+    width: 360px;
+    height: 452px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 40px #000000;
+}
+
+#screen {
+    width: 356px;
+    height: 85px;
+    border: none;
+    overflow: scroll;
+    font-size: larger;
+}
+
+#numbers {
+    float: left;
+    width: 180px;
+    height: 200px;
+    background-color: white;
+}
+
+#numbers button {
+    float: left;
+    width: 60px;
+    height: 66.7px;
+    border: none;
+    background-color: rgb(212, 212, 212);
+    font-size: large;
+}
+
+#numbers button:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+#numbers button:active {
+    background-color: white;
+}
+
+#commons {
+    float: right;
+    width: 180px;
+    height: 200px;
+    background-color: #058ED9;
+}
+
+#commons button {
+    float: left;
+    width: 60px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    background-color: #058ED9;
+}
+
+#commons button:hover {
+    background-color: #34a5e2;
+}
+
+#commons button:active {
+    background-color: #76c5f0;
+}
+
+#equal {
+    width: 90px;
+    text-align: center;
+    background-color: green;
+}
+
+#clear {
+    width: 90px;
+    text-align: center;
+    background-color: red;
+}
+
+#utils {
+    float: left;
+    width: 360px;
+    height: 59px;
+    background-color: #2e2e2e;
+}
+
+#utils button {
+    float: left;
+    width: 90px;
+    height: 100%;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    background-color: #2e2e2e;
+}
+
+#utils button:hover {
+    background-color: #444444;
+}
+
+#utils button:active {
+    background-color: #5f5f5f;
+}
+
+#trigs {
+    float: left;
+    width: 360px;
+    height: 118px;
+    background-color: #1b1b1b;
+}
+
+#trigs button {
+    float: left;
+    width: 120px;
+    height: 50%;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    background-color: #1b1b1b;
+}
+
+#trigs button:hover {
+    background-color: #2c2c2c;
+}
+
+#trigs button:active {
+    background-color: #3f3f3f;
+}
