@@ -1,7 +1,7 @@
 # Simple-wep-calculator
 An online easy to use calculator that can do basic arithmetic, trigonometric and logarithmic operations 
 
-To use:-
+To use:
 1- clone or download project to your device
 2- make sure you have python 3 and django installed on your device
 3- in the comand line enter the following
